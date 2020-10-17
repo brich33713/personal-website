@@ -72,3 +72,12 @@ body {
 a {
 	color: white;
 }
+
+.skill-icon {
+	padding: 10px;
+	font-size: 8em;
+}
+
+.project-details {
+	color: gray;
+}
