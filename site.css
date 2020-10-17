@@ -2,6 +2,13 @@ body {
 	font-family: 'Rubik', sans-serif;
 }
 
+#circle-img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
 .slanted {
 	background: #191a1d;
 	box-sizing: border-box;
@@ -11,11 +18,15 @@ body {
 }
 
 .slanted > * {
-	background: #191a1d;
 	transform: skewY(-4deg);
 	max-width: 55em;
 	margin: auto;
 	text-align: center;
+}
+
+.slanted > p {
+	background: inherit;
+	font-size: 32pt;
 }
 
 .article-header {
@@ -36,6 +47,10 @@ body {
 	background-image: url("/images/divbackground.png");
 }
 
+.footer {
+	background-color: black;
+}
+
 .zoom {
 	transition: transform .2s; /* Animation */
 	margin: 0 auto;
@@ -46,5 +61,5 @@ body {
 }
 
 .lead {
-	color: #ababab
+	color: #ababab;
 }
