@@ -63,3 +63,12 @@ body {
 .lead {
 	color: #ababab;
 }
+
+#repl {
+	width: 20px;
+	height: 20px;
+}
+
+a {
+	color: white;
+}
