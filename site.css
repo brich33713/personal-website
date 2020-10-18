@@ -81,3 +81,26 @@ a {
 .project-details {
 	color: gray;
 }
+
+@media only screen and (max-width: 575px) {
+	.slanted {
+		display: none;
+	}
+
+	.inside-div {
+		width: 440px;
+		margin-bottom: 8px;
+	}
+}
+
+@media only screen and (max-width: 985px) {
+	.quote {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.slanted {
+		transform: translateY(-75deg);
+	}
+}
