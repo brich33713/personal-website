@@ -82,6 +82,12 @@ a {
 	color: gray;
 }
 
+@media only screen and (max-width: 992px) {
+	.slanted > img {
+		display: none;
+	}
+}
+
 @media only screen and (max-width: 575px) {
 	.slanted {
 		display: none;
@@ -90,6 +96,11 @@ a {
 	.inside-div {
 		width: 440px;
 		margin-bottom: 8px;
+		/* display: none; */
+	}
+
+	.skill-icon {
+		display: none;
 	}
 }
 
@@ -103,4 +114,10 @@ a {
 	.slanted {
 		transform: skewY(4deg) translateY(-75px);
 	}
+}
+
+#profile-pic {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 15%;
 }
