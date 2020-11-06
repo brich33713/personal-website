@@ -41,6 +41,7 @@ body {
 	height: 540px;
 	width: 600px;
 	object-fit: cover;
+	border-radius: 3%;
 }
 
 .services {
